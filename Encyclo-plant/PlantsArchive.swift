@@ -13,7 +13,7 @@ func getPlants()->[Plant]
 {
     let One = Plant()
     One.itsName = "Camellia sinensis"
-    One.itsImage = #imageLiteral(resourceName: "Csinensis")
+    One.itsImage = #imageLiteral(resourceName: "Camellia Sinensis")
     
     return [One]
 }
