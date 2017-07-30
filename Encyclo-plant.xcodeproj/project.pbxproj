@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B21A07E91F2BAC28006B4E60 /* Camellia Sinensis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B21A07E81F2BAC28006B4E60 /* Camellia Sinensis.jpg */; };
+		B21A07ED1F2BAC7A006B4E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21A07EC1F2BAC7A006B4E60 /* Assets.xcassets */; };
+		B21A07EF1F2BC275006B4E60 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A07EE1F2BC275006B4E60 /* MainVC.swift */; };
+		B21A07F11F2BC368006B4E60 /* DisplayInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A07F01F2BC368006B4E60 /* DisplayInfoVC.swift */; };
+		B277057D1F2A4A85003D7CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B277057C1F2A4A85003D7CB3 /* AppDelegate.swift */; };
+		B277057F1F2A4A85003D7CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B277057E1F2A4A85003D7CB3 /* ViewController.swift */; };
+		B27705821F2A4A85003D7CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27705801F2A4A85003D7CB3 /* Main.storyboard */; };
+		B27705851F2A4A85003D7CB3 /* Encyclo_plant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B27705831F2A4A85003D7CB3 /* Encyclo_plant.xcdatamodeld */; };
+		B277058A1F2A4A85003D7CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27705881F2A4A85003D7CB3 /* LaunchScreen.storyboard */; };
+		B27705921F2A4C7B003D7CB3 /* PlantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27705911F2A4C7B003D7CB3 /* PlantClass.swift */; };
+		B27705941F2A4D83003D7CB3 /* PlantsArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27705931F2A4D83003D7CB3 /* PlantsArchive.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B21A07E81F2BAC28006B4E60 /* Camellia Sinensis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Camellia Sinensis.jpg"; sourceTree = "<group>"; };
+		B21A07EC1F2BAC7A006B4E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		B21A07EE1F2BC275006B4E60 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B21A07F01F2BC368006B4E60 /* DisplayInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayInfoVC.swift; sourceTree = "<group>"; };
+		B27705791F2A4A85003D7CB3 /* Encyclo-plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Encyclo-plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B277057C1F2A4A85003D7CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B277057E1F2A4A85003D7CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B27705811F2A4A85003D7CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B27705841F2A4A85003D7CB3 /* Encyclo_plant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Encyclo_plant.xcdatamodel; sourceTree = "<group>"; };
+		B27705891F2A4A85003D7CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B277058B1F2A4A85003D7CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27705911F2A4C7B003D7CB3 /* PlantClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantClass.swift; sourceTree = "<group>"; };
+		B27705931F2A4D83003D7CB3 /* PlantsArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantsArchive.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B27705761F2A4A85003D7CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B27705701F2A4A85003D7CB3 = {
+			isa = PBXGroup;
+			children = (
+				B277057B1F2A4A85003D7CB3 /* Encyclo-plant */,
+				B277057A1F2A4A85003D7CB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B277057A1F2A4A85003D7CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27705791F2A4A85003D7CB3 /* Encyclo-plant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B277057B1F2A4A85003D7CB3 /* Encyclo-plant */ = {
+			isa = PBXGroup;
+			children = (
+				B277057C1F2A4A85003D7CB3 /* AppDelegate.swift */,
+				B21A07EE1F2BC275006B4E60 /* MainVC.swift */,
+				B277057E1F2A4A85003D7CB3 /* ViewController.swift */,
+				B21A07F01F2BC368006B4E60 /* DisplayInfoVC.swift */,
+				B27705931F2A4D83003D7CB3 /* PlantsArchive.swift */,
+				B27705911F2A4C7B003D7CB3 /* PlantClass.swift */,
+				B21A07EC1F2BAC7A006B4E60 /* Assets.xcassets */,
+				B27705801F2A4A85003D7CB3 /* Main.storyboard */,
+				B27705881F2A4A85003D7CB3 /* LaunchScreen.storyboard */,
+				B21A07E81F2BAC28006B4E60 /* Camellia Sinensis.jpg */,
+				B277058B1F2A4A85003D7CB3 /* Info.plist */,
+				B27705831F2A4A85003D7CB3 /* Encyclo_plant.xcdatamodeld */,
+			);
+			path = "Encyclo-plant";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B27705781F2A4A85003D7CB3 /* Encyclo-plant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B277058E1F2A4A85003D7CB3 /* Build configuration list for PBXNativeTarget "Encyclo-plant" */;
+			buildPhases = (
+				B27705751F2A4A85003D7CB3 /* Sources */,
+				B27705761F2A4A85003D7CB3 /* Frameworks */,
+				B27705771F2A4A85003D7CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Encyclo-plant";
+			productName = "Encyclo-plant";
+			productReference = B27705791F2A4A85003D7CB3 /* Encyclo-plant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27705711F2A4A85003D7CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Manolescu Mihai Alexandru";
+				TargetAttributes = {
+					B27705781F2A4A85003D7CB3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2TQ6ZS9R76;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B27705741F2A4A85003D7CB3 /* Build configuration list for PBXProject "Encyclo-plant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B27705701F2A4A85003D7CB3;
+			productRefGroup = B277057A1F2A4A85003D7CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B27705781F2A4A85003D7CB3 /* Encyclo-plant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B27705771F2A4A85003D7CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B277058A1F2A4A85003D7CB3 /* LaunchScreen.storyboard in Resources */,
+				B27705821F2A4A85003D7CB3 /* Main.storyboard in Resources */,
+				B21A07ED1F2BAC7A006B4E60 /* Assets.xcassets in Resources */,
+				B21A07E91F2BAC28006B4E60 /* Camellia Sinensis.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27705751F2A4A85003D7CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27705921F2A4C7B003D7CB3 /* PlantClass.swift in Sources */,
+				B21A07EF1F2BC275006B4E60 /* MainVC.swift in Sources */,
+				B27705851F2A4A85003D7CB3 /* Encyclo_plant.xcdatamodeld in Sources */,
+				B21A07F11F2BC368006B4E60 /* DisplayInfoVC.swift in Sources */,
+				B277057F1F2A4A85003D7CB3 /* ViewController.swift in Sources */,
+				B27705941F2A4D83003D7CB3 /* PlantsArchive.swift in Sources */,
+				B277057D1F2A4A85003D7CB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B27705801F2A4A85003D7CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27705811F2A4A85003D7CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B27705881F2A4A85003D7CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27705891F2A4A85003D7CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B277058C1F2A4A85003D7CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B277058D1F2A4A85003D7CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B277058F1F2A4A85003D7CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2TQ6ZS9R76;
+				INFOPLIST_FILE = "Encyclo-plant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "asd.Encyclo-plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B27705901F2A4A85003D7CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2TQ6ZS9R76;
+				INFOPLIST_FILE = "Encyclo-plant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "asd.Encyclo-plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B27705741F2A4A85003D7CB3 /* Build configuration list for PBXProject "Encyclo-plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B277058C1F2A4A85003D7CB3 /* Debug */,
+				B277058D1F2A4A85003D7CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B277058E1F2A4A85003D7CB3 /* Build configuration list for PBXNativeTarget "Encyclo-plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B277058F1F2A4A85003D7CB3 /* Debug */,
+				B27705901F2A4A85003D7CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B27705831F2A4A85003D7CB3 /* Encyclo_plant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B27705841F2A4A85003D7CB3 /* Encyclo_plant.xcdatamodel */,
+			);
+			currentVersion = B27705841F2A4A85003D7CB3 /* Encyclo_plant.xcdatamodel */;
+			path = Encyclo_plant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B27705711F2A4A85003D7CB3 /* Project object */;
+}
