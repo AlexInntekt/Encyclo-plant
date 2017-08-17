@@ -20,7 +20,7 @@ Functionalities:
      Pictures and texts belong to the next sources:    
        www.wikipedia.org    
        www.botanistii.ro   
-       survivalgardener.com/dandelion-taraxacum-officinale    
-       bp.blogspot.com/-q8Bu7f7CnP8/Ux0CRg3ZmlI/AAAAAAAALN0/j9SnubYBQXE/s1600/stevie.jpg    
+       www.survivalgardener.com/dandelion-taraxacum-officinale    
+       www.bp.blogspot.com/-q8Bu7f7CnP8/Ux0CRg3ZmlI/AAAAAAAALN0/j9SnubYBQXE/s1600/stevie.jpg    
        https://www.pestre.ro/blog/wp-content/uploads/2017/05/anghinare-1.jpg     
        https://thumbs.dreamstime.com/z/simple-abstract-natural-seamless-vector-pattern-scattered-grey-plants-white-background-83032910.jpg
