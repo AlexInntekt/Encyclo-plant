@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-
+//this class encapsulate the data of each 'Plant':
 class Plant
 {
     var itsImage = UIImage()

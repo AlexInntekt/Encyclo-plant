@@ -46,7 +46,7 @@ class ViewController: UITableViewController
         cell.cellImage?.image = plantsArray[indexPath.row].itsImage
         
         //...and round it to look nice:
-        let roundedImage: UIImage = plantsArray[indexPath.row].itsImage
+        let _: UIImage = plantsArray[indexPath.row].itsImage
         cell.cellImage?.layer.cornerRadius = 8  // or use (roundedImage.size.width)/ a number
         
         //the name of the plant will be printed out in the cell:
